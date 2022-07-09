@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Pendejo</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+        <style>
+            .centered {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+            }
+            .cropper{
+                width: 100%;
+                object-fit: cover;
+            }
+            .column_flex{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+            .menu{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+            }
+            .text_green{
+                color: green;
+            }
+            .text_white{
+                color: white;
+            }
+            .text_black{
+                color: black;
+            } 
+            .text_red{
+                color: red;
+            } 
+            .penjaro_font{
+                font-family:Haettenschweiler,'Arial Black', 'Arial Narrow Bold', sans-serif;
+            }
+            .penjaro_font_impact{
+                font-family:Impact, Haettenschweiler, 'Arial Black','Arial Narrow Bold', sans-serif;
+            }
+        </style>
+    </head>
+    <body style="font-weight:bold">
+        <div style="height:100vh">
+            <img src="title.png" class="cropper" style="height:70vh;margin-top:15vh;">
+            <div class="centered column_flex text_white">
+                <p class="penjaro_font_impact" style="font-size:min(28vh, 20vw);line-height: 100%;">PENJARO</p>
+                <p class="penjaro_font_impact" style="font-size:min(10vh, 7vw);line-height: 100%;">TACOS·BIRRIA·TEQUILA</p>
+            </div>
+        </div>
+        <div class="container column_flex">
+            <p class="penjaro_font_impact text_black" style="font-size:min(18vh, 18vw);">MENU</p> 
+            <div class="menu">
+                <img class="rounded-circle" src="birria.png" style="height:min(30vh, 30vw);width:min(30vh, 30vw);margin:min(3vh, 3vw)">
+                <div class="column_flex">
+                    <p class="penjaro_font_impact text_green" style="font-size:min(10vh, 8vw);line-height: 100%;">Birria Tacos</p>
+                    <p class="penjaro_font_impact text_black" style="font-size:min(5vh, 5vw);line-height: 100%;">비리아 타코(1pc)</p>
+                    <p class="penjaro_font text_black" style="font-size:min(10vh, 10vw);line-height: 100%;">3.6₩</p>
+                </div>
+            </div>
+            <div class="menu">
+                <img class="rounded-circle" src="quesa.png" style="height:min(30vh, 30vw);width:min(30vh, 30vw);margin:min(3vh, 3vw)">
+                <div class="column_flex">
+                    <p class="penjaro_font_impact text_green" style="font-size:min(10vh, 8vw);line-height: 100%;">Quesabirria</p>
+                    <p class="penjaro_font_impact text_black" style="font-size:min(5vh, 5vw);line-height: 100%;">퀘사비리아(1pc)</p>
+                    <p class="penjaro_font text_black" style="font-size:min(10vh, 10vw);line-height: 100%;">4.1₩</p>
+                </div>
+            </div>
+            <div class="menu">
+                <img class="rounded-circle" src="consomme.png" style="height:min(30vh, 30vw);width:min(30vh, 30vw);margin:min(3vh, 3vw)">
+                <div class="column_flex">
+                    <p class="penjaro_font_impact text_green" style="font-size:min(10vh, 8vw);line-height: 100%;">Consomme</p>
+                    <p class="penjaro_font_impact text_black" style="font-size:min(5vh, 5vw);line-height: 100%;">콘소메스프</p>
+                    <p class="penjaro_font text_black" style="font-size:min(10vh, 10vw);line-height: 100%;">2.0₩</p>
+                </div>
+            </div>
+            <div class="menu">
+                <img class="rounded-circle" src="ramen.png" style="height:min(30vh, 30vw);width:min(30vh, 30vw);margin:min(3vh, 3vw)">
+                <div class="column_flex">
+                    <p class="penjaro_font_impact text_green" style="font-size:min(10vh, 8vw);line-height: 100%;">Birria Ramen</p>
+                    <p class="penjaro_font_impact text_black" style="font-size:min(5vh, 5vw);line-height: 100%;">비리아라면</p>
+                    <p class="penjaro_font text_black" style="font-size:min(10vh, 10vw);line-height: 100%;">3.5₩</p>
+                </div>
+            </div>
+            <div class="menu">
+                <div style="display:flex;flex-direction:column;align-items:center">
+                    <div style="display:flex;flex-direction:row">
+                        <img class="rounded-circle" src="birria.png" style="height:min(15vh, 15vw);width:min(15vh, 15vw);margin:min(1vh, 1vw)">
+                        <img class="rounded-circle" src="birria.png" style="height:min(15vh, 15vw);width:min(15vh, 15vw);margin:min(1vh, 1vw)">
+                    </div>
+                    <div style="display:flex;flex-direction:row">
+                        <img class="rounded-circle" src="quesa.png" style="height:min(15vh, 15vw);width:min(15vh, 15vw);margin:min(1vh, 1vw)">
+                        <img class="rounded-circle" src="quesa.png" style="height:min(15vh, 15vw);width:min(15vh, 15vw);margin:min(1vh, 1vw)">
+                    </div>
+                    <div style="display:flex;flex-direction:row;align-items:center">
+                        <img class="rounded-circle" src="consomme.png" style="height:min(15vh, 15vw);width:min(15vh, 15vw);margin:min(1vh, 1vw)">
+                    </div>
+                </div>
+                <div class="column_flex">
+                    <p class="penjaro_font_impact text_green" style="font-size:min(10vh, 8vw);line-height: 100%;">Combo for 2</p>
+                    <p class="penjaro_font_impact text_black" style="font-size:min(5vh, 5vw);line-height: 100%;">2인 콤보</p>
+                    <p class="penjaro_font_impact text_black" style="font-size:min(3vh, 3vw);line-height: 100%;text-align:center">Birria tacos (2pcs)<br>Quessabiria (2pcs)<br>Consomme<br>1 Soda</p>
+                    <p class="penjaro_font text_black" style="font-size:min(10vh, 10vw);line-height: 100%;">19.0₩</p>
+                </div>
+            </div>
+            <div style="height:7vh"></div>
+            <p class="penjaro_font_impact text_red" style="font-size:min(3vh, 3vw);line-height: 100%;">Please let pendejos know if you don't want cilanto!</p> 
+            <p class="penjaro_font_impact text_red" style="font-size:min(3vh, 3vw);line-height: 100%;">전 메뉴 고수 들어갑니다. 원하지 않으시면 말씀해주세요!</p> 
+            <div style="height:10vh"></div>
+            <p class="penjaro_font_impact text_black" style="font-size:min(15vh, 15vw);">Beverages</p> 
+            <div style="display:flex;flex-direction:column;align-items:center">
+                <p class="penjaro_font_impact text_green" style="font-size:min(10vh, 10vw);line-height: 100%;">Soda</p> 
+                <p class="penjaro_font_impact text_black" style="font-size:min(5vh, 5vw);line-height: 100%;">탄산음료 2.0₩</p> 
+                <p class="penjaro_font_impact text_green" style="font-size:min(10vh, 10vw);line-height: 100%;">Corona</p> 
+                <p class="penjaro_font_impact text_black" style="font-size:min(5vh, 5vw);line-height: 100%;">코로나 6.0₩</p> 
+                <p class="penjaro_font_impact text_green" style="font-size:min(10vh, 10vw);line-height: 100%;">Dos Equis</p> 
+                <p class="penjaro_font_impact text_black" style="font-size:min(5vh, 5vw);line-height: 100%;">도스에끼스 7.0₩</p> 
+                <p class="penjaro_font_impact text_green" style="font-size:min(10vh, 10vw);line-height: 100%;">Gorilla IPA</p> 
+                <p class="penjaro_font_impact text_black" style="font-size:min(5vh, 5vw);line-height: 100%;">고릴라 6.0₩</p> 
+                <p class="penjaro_font_impact text_green" style="font-size:min(10vh, 10vw);line-height: 100%;">Tequila shot</p> 
+                <p class="penjaro_font_impact text_black" style="font-size:min(5vh, 5vw);line-height: 100%;">4.0₩</p> 
+            </div>
+            <div style="height:10vh"></div>
+            <p class="penjaro_font_impact text_black" style="font-size:min(15vh, 10vw);">Opening Times</p> 
+            <div style="display:flex;flex-direction:column;align-items:center">
+                <p class="penjaro_font_impact text_green" style="font-size:min(10vh, 5vw);line-height: 100%;">11:30-14:30 & 17:00-20:00 (Wed off)</p> 
+            </div>
+            <div style="height:10vh"></div>
+            <p class="penjaro_font_impact text_black" style="font-size:min(15vh, 15vw);">Find Us</p> 
+            <div style="display:flex;flex-direction:column;align-items:center">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3261.9375945942184!2d129.12414811546242!3d35.15817708031957!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3568936156c852b3%3A0x711bb5000e818ad3!2sPendejo!5e0!3m2!1sen!2sus!4v1657361007478!5m2!1sen!2sus" width="450" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <p class="penjaro_font_impact text_red" style="font-size:min(5vh, 5vw);line-height: 100%;margin: min(2vh, 2vw)">(No parking)</p> 
+            </div>
+            <div style="height:10vh"></div>
+            <p class="penjaro_font_impact text_black" style="font-size:min(15vh, 15vw);">CONTACT</p> 
+            <div style="display:flex;flex-direction:column;align-items:center">
+                <p class="penjaro_font_impact text_green" style="font-size:min(5vh, 5vw);line-height: 100%;">051-715-8773</p> 
+                <a href="https://www.instagram.com/pendejo.busan/" class="penjaro_font_impact text_green" style="font-size:min(5vh, 5vw);line-height: 100%;">Instagram</a>
+            </div>
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    </body>
+</html>
